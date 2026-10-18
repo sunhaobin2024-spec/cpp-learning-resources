@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C++ 学习资料库</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">C++ 学习资料库</div>
+        <div class="nav-links">
+          <a href="#books">书籍</a>
+          <a href="#courses">课程</a>
+          <a href="#sites">网站</a>
+          <a href="#practice">练习</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">学习资源导航</p>
+        <h1>从入门到进阶，系统学习 C++</h1>
+        <p class="subtitle">
+          汇总优质书籍、在线课程、教程网站、刷题平台和学习路线，帮助你建立完整的 C++ 学习体系。
+        </p>
+        <div class="actions">
+          <a class="primary" href="#books">查看资源</a>
+          <a class="secondary" href="README.md">项目说明</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="books">
+        <div class="section-header">
+          <span class="tag">01</span>
+          <h2>书籍推荐</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>《C++ Primer》</h3>
+            <p>最经典、最系统的 C++ 教材，适合入门和深入学习。</p>
+            <a href="https://www.amazon.com/C-Primer-5th-Stanley-Lippman/dp/0321714113" target="_blank" rel="noreferrer">查看链接</a>
+          </article>
+
+          <article class="card">
+            <h3>《C++ Primer Plus》</h3>
+            <p>讲解更友好，适合零基础建立框架，课程节奏适中。</p>
+            <a href="https://www.amazon.com/C-Primer-Plus-6th/dp/0321776402" target="_blank" rel="noreferrer">查看链接</a>
+          </article>
+
+          <article class="card">
+            <h3>《Effective C++》</h3>
+            <p>适合进阶阶段，掌握最佳实践和常见坑点。</p>
+            <a href="https://www.amazon.com/Effective-C-Third-Specific-Programs/dp/0321334876" target="_blank" rel="noreferrer">查看链接</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="courses">
+        <div class="section-header">
+          <span class="tag">02</span>
+          <h2>在线课程</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>B 站 C++ 入门教程</h3>
+            <p>适合初学者快速搭建基础知识框架，学习成本低。</p>
+            <a href="https://www.bilibili.com/" target="_blank" rel="noreferrer">搜索课程</a>
+          </article>
+
+          <article class="card">
+            <h3>Udemy：Beginning C++ Programming</h3>
+            <p>适合从零开始系统学习 C++，涵盖基础、对象和实战。</p>
+            <a href="https://www.udemy.com/course/beginning-c-plus-plus-programming/" target="_blank" rel="noreferrer">查看课程</a>
+          </article>
+
+          <article class="card">
+            <h3>Coursera：C++ For C Programmers</h3>
+            <p>适合已经有 C 语言基础的人快速过渡到 C++。</p>
+            <a href="https://www.coursera.org/" target="_blank" rel="noreferrer">查看平台</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="sites">
+        <div class="section-header">
+          <span class="tag">03</span>
+          <h2>教程与参考网站</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>LearnCpp.com</h3>
+            <p>结构非常清晰，适合系统学习和逐步掌握 C++。</p>
+            <a href="https://www.learncpp.com/" target="_blank" rel="noreferrer">访问网站</a>
+          </article>
+
+          <article class="card">
+            <h3>cplusplus.com</h3>
+            <p>适合速查语法、基础知识和示例代码。</p>
+            <a href="http://cplusplus.com/doc/tutorial/" target="_blank" rel="noreferrer">访问网站</a>
+          </article>
+
+          <article class="card">
+            <h3>cppreference.com</h3>
+            <p>标准库与语法细节最权威的参考网站，适合查阅和验证。</p>
+            <a href="https://en.cppreference.com/w/" target="_blank" rel="noreferrer">访问网站</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="practice">
+        <div class="section-header">
+          <span class="tag">04</span>
+          <h2>练习平台</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>LeetCode</h3>
+            <p>适合算法训练和 C++ 面试题，提升数据结构和逻辑能力。</p>
+            <a href="https://leetcode-cn.com/" target="_blank" rel="noreferrer">开始刷题</a>
+          </article>
+
+          <article class="card">
+            <h3>洛谷</h3>
+            <p>中文友好，适合算法与竞赛训练。</p>
+            <a href="https://www.luogu.com.cn/" target="_blank" rel="noreferrer">进入平台</a>
+          </article>
+
+          <article class="card">
+            <h3>Codeforces</h3>
+            <p>适合更高级的算法能力提升和竞赛训练。</p>
+            <a href="https://codeforces.com/" target="_blank" rel="noreferrer">进入平台</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section roadmap">
+        <div class="section-header">
+          <span class="tag">05</span>
+          <h2>学习路线建议</h2>
+        </div>
+
+        <ul class="timeline">
+          <li><strong>第一阶段：</strong> 基础语法、函数、数组、指针、引用、类与对象。</li>
+          <li><strong>第二阶段：</strong> STL、模板、异常处理、资源管理和智能指针。</li>
+          <li><strong>第三阶段：</strong> 数据结构、算法题、项目实战和工程代码阅读。</li>
+          <li><strong>第四阶段：</strong> 深入理解 C++11/14/17/20 新特性，提升实战能力。</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
