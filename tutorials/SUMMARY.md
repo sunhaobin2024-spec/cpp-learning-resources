@@ -1,13 +1,15 @@
-# 教程索引
+# 02 面向对象（教程索引）
 
-本仓库新增了一套中文教程，路径：
+本章对应的文件：
+- tutorials/02-oop.md
+- slides/02-oop.md
+- narration/02-oop.txt
 
-- tutorials/01-basics.md — 基础语法（入门）
-- tutorials/02-oop.md — 面向对象（类与对象）
-- tutorials/03-stl.md — STL 与常用容器
-- tutorials/04-modern-cpp.md — 现代 C++（C++11/14/17/20 简介）
-- tutorials/05-projects.md — 实战项目与小练习
+学习顺序建议：
+1. 阅读 tutorials/02-oop.md
+2. 结合 slides/02-oop.md 做课堂演示
+3. 结合 narration/02-oop.txt 做语音旁白或复述
+4. 完成本章练习
+5. 对照参考答案复盘并记录不懂的点
 
-你可以在 GitHub 仓库中直接打开这些文件阅读，或克隆仓库到本地后在浏览器中打开。
-
-仓库地址：https://github.com/sunhaobin2024-spec/cpp-learning-resources
+下一章：STL 与常用容器
